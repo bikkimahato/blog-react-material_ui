@@ -1,6 +1,7 @@
 import GitHubIcon from "@material-ui/icons/GitHub";
-import FacebookIcon from "@material-ui/icons/Facebook";
 import TwitterIcon from "@material-ui/icons/Twitter";
+import LinkedIcon from "@material-ui/icons/LinkedIn";
+import YouTubeIcon from "@material-ui/icons/YouTube";
 
 export const sections = [
   { title: "Technology", url: "#" },
@@ -125,8 +126,21 @@ export const sidebar = {
     { title: "April 1999", url: "#" },
   ],
   social: [
-    { name: "GitHub", icon: GitHubIcon },
-    { name: "Twitter", icon: TwitterIcon },
-    { name: "Facebook", icon: FacebookIcon },
+    { name: "GitHub", icon: GitHubIcon, url: "https://github.com/bikkimahato" },
+    {
+      name: "Twitter",
+      icon: TwitterIcon,
+      url: "https://twitter.com/mahato_bikki",
+    },
+    {
+      name: "LinkedIn",
+      icon: LinkedIcon,
+      url: "https://www.linkedin.com/in/bikkimahato/",
+    },
+    {
+      name: "YouTube",
+      icon: YouTubeIcon,
+      url: "https://www.youtube.com/c/BikkiMahato",
+    },
   ],
 };

@@ -10,6 +10,8 @@ import MenuIcon from "@material-ui/icons/Menu";
 import { AccountCircle } from "@material-ui/icons";
 import NotificationsIcon from "@material-ui/icons/Notifications";
 
+import SideDrawer from '../side-drawer'
+
 const useStyles = makeStyles((theme) => ({
   title: {
     flexGrow: 1,
@@ -28,9 +30,11 @@ function Header() {
   return (
     <>
       <Toolbar>
-        <IconButton color="inherit">
-          <MenuIcon />
-        </IconButton>
+        <SideDrawer>
+          <IconButton color="inherit">
+            <MenuIcon />
+          </IconButton>
+        </SideDrawer>
         <Typography variant="h6" className={classes.title}>
           Blogging Website
         </Typography>
